@@ -25,6 +25,9 @@
 
   <!-- ADMIN -->
   <ng-container *ngIf="isAdmin">
+    <a routerLink="/dashboard" routerLinkActive="text-blue-400" aria-label="Ajout">
+      <span>Dashboard</span>
+    </a>
     <a routerLink="/ajout" routerLinkActive="text-blue-400" aria-label="Ajout">
       <span>Ajouter Espèces</span>
     </a>
