@@ -133,5 +133,6 @@ export class CameraComponent implements OnInit, AfterViewInit {
   removePhoto(): void {
     this.photoUrl = null;
     this.analyses = [];
+    this.capturePhoto()
   }
 }
